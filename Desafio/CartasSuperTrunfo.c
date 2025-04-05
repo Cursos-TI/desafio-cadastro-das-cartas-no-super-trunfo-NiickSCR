@@ -3,7 +3,6 @@
 int main() {
 
     // Variaveis da Primeira carta
-
     char estado1;
     char carta1[4];
     char cidade1[50];
@@ -45,7 +44,6 @@ int main() {
     scanf("%d", &pontosturisticos1);
 
     // Segunda carta
-
     printf("Cadastrando carta 2:\n");
     printf("Digite um estado ('A' a 'H'): \n");
     scanf(" %c", &estado2);
@@ -68,7 +66,7 @@ int main() {
     printf("Digite o número de pontos turisticos da cidade: \n");
     scanf("%d", &pontosturisticos2);    
 
-    // Exibnido na tela as informações das cartas
+    // Exibindo na tela as informações das cartas
 
     // Carta 1:
     printf("\nCartas cadastradas com sucesso.\nDados da carta 1:\n");
